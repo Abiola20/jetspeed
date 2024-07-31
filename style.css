@@ -1,0 +1,159 @@
+
+body{
+    padding: 0;
+    margin: 0 auto;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #505E67;
+}
+.nav-container{
+    background-image: url(images/blacktile.jpg);
+    margin: 0 0 50px;
+    padding: 5px 0;
+    color: white;
+
+}
+.nav-container ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+    list-style: none;
+    font-size: 15px;
+}
+.nav-container a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav-container a:hover{
+    border-bottom: 5px solid lightgrey;
+}
+hr{
+    border-top-style: dashed ;
+    width: 900px;
+    color: lightgray;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    margin: 50px 0 0;
+    padding: 0;
+    font-size: 35px;
+}
+.photo-gallery img{
+    width: 670px;
+    border: 1px  solid lightgrey;
+    padding: 2px;
+}
+
+/* review section */
+.review{
+    width: 670px;
+    /* margin: 0 auto; */
+    margin: 20px auto;
+    position: relative;
+}
+.customerBox{
+    text-align: center;
+    width: 550px;
+    border-top: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+    margin: 10px 0;
+    padding: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+}
+.customerBox h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.customerBox h2{
+    font-weight: normal;
+    font-size: 16px;
+    text-align: right;
+    font-style: italic;
+    padding-top: 5px;
+}
+.customerBox hr{
+    width: 550px;
+}
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float: right;
+}
+.tour-date{
+    clear: both;
+    padding-top: 10px;
+    /* margin: 0 auto; */
+}
+table{
+    margin: 25px auto 50px;
+    border: 1px solid lightgrey;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    border-radius: 7px;
+    padding: 8px;
+}
+td{
+    padding: 20px;
+    border: 1px solid lightgrey;
+}
+th{
+    padding: 20px;
+    background-color: #505E67;
+    color: white;
+    border: 1px solid lightgrey;
+}
+table tr:nth-child(odd){
+    background-color: #E6E6E6;
+}
+footer{
+    /* display: flex; */
+    background-color: #232244;
+    margin: 0 auto;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    color: white;
+    list-style: none;
+    font-size: 15px;
+}
+footer a{
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact-us{
+    width: 100px;
+	height: 30px;
+	background-color: #232244;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 5px;
+	position: fixed;
+	bottom: 10px;
+	right: 0;
+}
+.contact-us a{
+    text-decoration: none;
+    color: white;
+} 
